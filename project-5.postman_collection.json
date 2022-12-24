@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "985719c6-4824-49f6-96df-802e0dd69248",
+		"name": "project-5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "19706916"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"data={\r",
+							"    \"fname\":\"prakash\",\r",
+							"    \"lname\":\"mishra\",\r",
+							"    \"email\":\"prakash112@gmail.com\",\r",
+							"    \"password\":\"prakash112345\",\r",
+							"    \"phone\":\"9669687290\",\r",
+							"    \"address\":{\r",
+							"        \"shipping\":{\r",
+							"        \"street\":\"mhow\",\"city\":\"indore\",\"pincode\":12345\r",
+							"        \r",
+							"        },\r",
+							"        \"billing\":{\r",
+							"            \"street\":\"indore\",\"city\":\"indore\",\"pincode\":454775\r",
+							"            }}\r",
+							"\r",
+							"}\r",
+							"pm.variables.set(\"somedata\",JSON.stringify(data))"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "profileImage",
+							"type": "file",
+							"src": "/C:/Users/prakash/Pictures/pm.jpg"
+						},
+						{
+							"key": "data",
+							"value": "{{somedata}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": "localhost:3000/register"
+			},
+			"response": []
+		}
+	]
+}
