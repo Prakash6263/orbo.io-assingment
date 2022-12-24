@@ -1,0 +1,29 @@
+{
+    "results": 2,
+    "data": [
+        {
+            "isDeleted": false,
+            "_id": "63a589d4b3cdb4225077a10c",
+            "name": "dhanush",
+            "email": "dhanhush@gmail.com",
+            "phone": "9632304456",
+            "profilePic": "https://trade-platform.s3.ap-south-1.amazonaws.com/variant.png",
+            "aadharNo": "868627063250",
+            "aadharPic": "https://trade-platform.s3.ap-south-1.amazonaws.com/green%20leafs%20vegies.jpg",
+            "createdAt": "2022-12-23T10:58:28.797Z",
+            "updatedAt": "2022-12-23T10:58:28.797Z"
+        },
+        {
+            "_id": "63a58d7334346d8e4365c2b2",
+            "name": "deependra",
+            "email": "deepi@gmail.com",
+            "phone": "8296770370",
+            "profilePic": "https://trade-platform.s3.ap-south-1.amazonaws.com/variant.png",
+            "aadharNo": "868627063250",
+            "aadharPic": "https://trade-platform.s3.ap-south-1.amazonaws.com/green%20leafs%20vegies.jpg",
+            "isDeleted": false,
+            "createdAt": "2022-12-23T11:13:55.259Z",
+            "updatedAt": "2022-12-23T11:13:55.259Z"
+        }
+    ]
+}
